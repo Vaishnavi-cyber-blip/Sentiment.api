@@ -8,4 +8,9 @@ The sentiment analysis model is a machine learning model that has been trained t
 ### About Dataset
 The model was trained using a large Twitter dataset (current X) of text reviews and their corresponding sentiment labels ( Positive:1, Negative:-1, and Neutral:0)
 
-The dataset was preprocessed by cleaning the text, removing stop words, numerical valu and performing stemming. The model was then trained using a variety of machine-learning algorithms, including logistic regression, decision trees, and random forests. The model with the highest accuracy was selected for use in the API.
+### Data preprocessing
+The dataset was preprocessed by cleaning the text that involved removing stop words, removal of numeric values, and punctuation marks, and conversion of letters in their base forms by using the techniques of stemming and lemmatization.
+
+### Algorithms used
+
+
