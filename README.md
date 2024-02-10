@@ -9,7 +9,7 @@ The sentiment analysis model is a machine learning model trained to classify tex
 The model was trained using a large Twitter dataset (current X) of more than 160000 text reviews and corresponding sentiment labels ( Positive:1, Negative:-1, and Neutral:0).
 
 ### Data preprocessing
-The dataset was preprocessed by cleaning the text that involved removing stop words, removal of numeric values, and punctuation marks, and conversion of letters in their base forms using stemming and lemmatization techniques.
+The dataset was preprocessed by cleaning the text which involved removing stop words(i.e. a, an, the, etc), removal of numeric values, and punctuation marks, and conversion of letters in their base forms using stemming and lemmatization techniques.
 
 ### Algorithms used
 #### TF-IDF (Term Frequency-Inverse Document Frequency) 
