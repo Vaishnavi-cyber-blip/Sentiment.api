@@ -37,18 +37,25 @@ The 'pickle' module is used to perform this task. Serializing the trained model,
 As in web applications, user input is sent to the server in the form of an HTTP request. We have used POST request in this application.
 
 #### Loading the pickled predictor:
-Once we have preprocessed the user input, we can load the serialized sentiment analysis model from the file using the 'pickle.load()' function. This will restore the original object that allows us to make predictions using the model.
+Once we have preprocessed the user input, we can load the serialized sentiment analysis model from the file using the 'pickle.load()' function. This will restore the original object and allows us to make predictions using the model.
 
 #### jsonify our predictions and send the response back:
-The jsonify() function is used to convert the results into a JSON format that can be sent back to the user as an HTTP response.
+The 'jsonify()' function is used to convert the results into a JSON format that can be sent back to the user as an HTTP response.
 
 ## Testing and Deployment of API (Usage of tools)
 
 ### Testing using Postman
-Postman is a popular tool for testing APIs. It allows you to send HTTP requests to a server and view the responses. You can use Postman to test your Flask application by sending requests to the application's endpoints and checking the responses.
+Postman is a popular tool for testing APIs. It allows you to send HTTP requests to a server and view the responses. You can use Postman to test your Flask application by sending requests to the application's endpoints and checking the responses. https://render.com/
 
 ### Deployment using Render
 'Render' is a cloud platform for deploying web applications. It supports a variety of web frameworks, including Flask. Deploying a Flask application using Render is simple and free with basic services.
+
+## Building Android Application
+Our final step is integration of our API into our url.
+
+
+
+
 
 
 
