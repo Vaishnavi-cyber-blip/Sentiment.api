@@ -45,16 +45,27 @@ The 'jsonify()' function is used to convert the results into a JSON format that 
 ## Testing and Deployment of API (Usage of tools)
 
 ### Testing using Postman
-Postman is a popular tool for testing APIs. It allows you to send HTTP requests to a server and view the responses. You can use Postman to test your Flask application by sending requests to the application's endpoints and checking the responses. https://render.com/
+Postman is a popular tool for testing APIs. It allows you to send HTTP requests to a server and view the responses. You can use Postman to test your Flask application by sending requests to the application's endpoints and checking the responses. 
+https://www.postman.com/
 
 ### Deployment using Render
 'Render' is a cloud platform for deploying web applications. It supports a variety of web frameworks, including Flask. Deploying a Flask application using Render is simple and free with basic services.
+https://render.com/
 
 ## Building Android Application
-Our final step is integration of our API into our url.
+Our final step is the integration of our API into our URL.
+
+Here is the presentation of our working application
 
 
 
+
+
+
+
+
+
+https://github.com/Vaishnavi-cyber-blip/Sentiment.api/assets/72164140/7a02ad98-9174-451d-9c90-bcc31f1eb65e
 
 
 
