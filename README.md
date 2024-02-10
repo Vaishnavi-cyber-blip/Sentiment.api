@@ -1,1 +1,1 @@
-# Emotions tester
+# Sentiment Analysis Model, API, and Android Application
