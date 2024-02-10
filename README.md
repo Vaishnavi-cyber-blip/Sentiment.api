@@ -12,6 +12,11 @@ The model was trained using a large Twitter dataset (current X) of text reviews 
 The dataset was preprocessed by cleaning the text that involved removing stop words, removal of numeric values, and punctuation marks, and conversion of letters in their base forms by using the techniques of stemming and lemmatization.
 
 ### Algorithms used
+TF-IDF (Term Frequency-Inverse Document Frequency) algorithm is used for feature extraction.
+ The Logistic Regression CV (aka logit, MaxEnt) classifier is used for classification in the sentiment analysis process.
+
+## Conversion of Model into API using flask
+
 
 
 
