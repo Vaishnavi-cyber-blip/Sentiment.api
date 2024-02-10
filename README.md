@@ -25,6 +25,42 @@ The classifier is used for classification in the sentiment analysis process.
 It is the variation of Logistic Regression that includes cross-validation to select the best hyperparameters for the model. It uses a technique called "stratified k-fold cross-validation" to ensure that each fold of the dataset contains approximately the same proportion of positive and negative examples. This can help to improve the performance of the model by reducing the risk of overfitting.
 
 ## Conversion of Model into API using flask
+In this step, we will convert our machine learning model into the application. Python's Flask framework is used to implement this conversion.
+### REST API
+Representational State Transfer Application Programming Interface helps to build communication between the client and the server, and then the server sends you back the response.
+
+### Basic steps performed: 
+#### Saving the machine learning model (Serialization and deserialization):
+The 'pickle' module is used to perform this task. Serializing the trained model, we have saved it to a file using the 'pickle.dump()' function, and then later deserialized it using the 'pickle.load()' function to restore the original object.
+
+#### Getting the request data (the input from the user):
+As in web applications, user input is sent to the server in the form of an HTTP request. We have used POST request in this application.
+
+#### Loading the pickled predictor:
+Once we have preprocessed the user input, we can load the serialized sentiment analysis model from the file using the 'pickle.load()' function. This will restore the original object that allows us to make predictions using the model.
+
+#### jsonify our predictions and send the response back:
+The jsonify() function is used to convert the results into a JSON format that can be sent back to the user as an HTTP response.
+
+## Testing and Deployment of API (Usage of tools)
+
+### Testing using Postman
+Postman is a popular tool for testing APIs. It allows you to send HTTP requests to a server and view the responses. You can use Postman to test your Flask application by sending requests to the application's endpoints and checking the responses.
+
+### Deployment using Render
+'Render' is a cloud platform for deploying web applications. It supports a variety of web frameworks, including Flask. Deploying a Flask application using Render is simple and free with basic services.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
