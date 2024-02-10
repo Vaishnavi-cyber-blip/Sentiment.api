@@ -19,7 +19,9 @@ The algorithm is used for feature extraction.
 
 'max_features=5000' means that only the top 5000 most important features will be used in the model. This parameter helps to reduce the dimensionality of the feature space and prevent overfitting.
 
-The Logistic Regression CV (aka logit, MaxEnt) classifier is used for classification in the sentiment analysis process.
+#### The Logistic Regression CV (aka logit, MaxEnt) 
+The classifier is used for classification in the sentiment analysis process.
+It is the variation of Logistic Regression that includes cross-validation to select the best hyperparameters for the model. It uses a technique called "stratified k-fold cross-validation" to ensure that each fold of the dataset contains approximately the same proportion of positive and negative examples. This can help to improve the performance of the model by reducing the risk of overfitting.
 
 ## Conversion of Model into API using flask
 
