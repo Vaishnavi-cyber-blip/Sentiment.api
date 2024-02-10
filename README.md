@@ -53,7 +53,7 @@ https://www.postman.com/
 https://render.com/
 
 ## Building Android Application
-Our final step is the integration of our API into our URL.
+Our final step is the integration of our API into our Android Application.
 
 Here is the presentation of our working application
 
