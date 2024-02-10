@@ -10,6 +10,7 @@ The model was trained using a large Twitter dataset (current X) of more than 160
 
 ### Data preprocessing
 The dataset was preprocessed by cleaning the text which involved removing stop words(i.e. a, an, the, etc), removal of numeric values, and punctuation marks, and conversion of letters in their base forms using stemming and lemmatization techniques.
+#### Libraries used - Natural Language toolkit(nltk) and Regular expression (re)
 
 ### Algorithms used
 #### TF-IDF (Term Frequency-Inverse Document Frequency) 
@@ -24,6 +25,11 @@ The classifier is used for classification in the sentiment analysis process.
 It is the variation of Logistic Regression that includes cross-validation to select the best hyperparameters for the model. It uses a technique called "stratified k-fold cross-validation" to ensure that each fold of the dataset contains approximately the same proportion of positive and negative examples. This can help to improve the performance of the model by reducing the risk of overfitting.
 
 ## Conversion of Model into API using flask
+
+
+
+
+
 
 
 
