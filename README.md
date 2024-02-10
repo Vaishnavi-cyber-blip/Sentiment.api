@@ -16,7 +16,7 @@ The dataset was preprocessed by cleaning the text that involved removing stop wo
 The algorithm is used for feature extraction.
 ##### Parameters used
 ###### 'ngram_range=(1,2)' means that both unigrams (single words) and bigrams (pairs of words) will be extracted.
-'max_features=5000' means that only the top 5000 most important features will be used in the model. This parameter helps to reduce the dimensionality of the feature space and prevent overfitting.
+###### 'max_features=5000' means that only the top 5000 most important features will be used in the model. This parameter helps to reduce the dimensionality of the feature space and prevent overfitting.
 
 The Logistic Regression CV (aka logit, MaxEnt) classifier is used for classification in the sentiment analysis process.
 
